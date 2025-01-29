@@ -24,3 +24,4 @@ def get_marks():
     response = jsonify({"marks": marks})
     response.headers.add("Access-Control-Allow-Origin", "*")
     return response
+   
